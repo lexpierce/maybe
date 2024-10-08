@@ -5,10 +5,11 @@ databases:
     plan: basic-256mb
     diskSizeGB: 5
     region: oregon
+    ipAllowList: []
 
 services:
   - type: web
-    plan: standard
+    plan: starter
     region: oregon
     autoDeploy: false
     runtime: ruby
